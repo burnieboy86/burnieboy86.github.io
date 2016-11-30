@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 1000vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  perspective: 1000px;
+}
+
+.front {
+  backface-visibility: hidden;
+  z-index: 1;
+  background-color: #333;
+}
+
+.back, .front {
+  width: 75vw;
+  margin-left: 20px;
+  position: absolute;
+}
+
+p {
+  font-size: 4vh;
+  color: whitesmoke;
+}
+
+.back p {
+  transform: scale(1, -1);
+}
