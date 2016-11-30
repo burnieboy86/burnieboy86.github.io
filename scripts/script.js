@@ -4,7 +4,7 @@ $(document).scroll(function(){
 
   $('.front, .back').css({
 
-    'transform': 'rotateX('+ scroller / 6 +'deg) translateX('+ scroller / 100 +'%)'
+    '-webkit-transform': 'rotateX('+ scroller / 6 +'deg) translateX('+ scroller / 100 +'%)'
 
   });
 
