@@ -88,9 +88,11 @@ body {
 }
 
 .menu-text-container {
-  position: flex;
-  align-items: center;
-  justify-content: space-around;
+  width: 60%;
+}
+
+.menu-text {
+  transition: transform 200ms ease;
 }
 
 .menu-text p {
@@ -100,4 +102,20 @@ body {
 
 p {
   font-family: "Bungee", cursive;
+}
+
+.first-text-active {
+  transform: translateX(100px);
+}
+
+.second-text-active {
+  transform: translateX(150px);
+}
+
+.third-text-active {
+  transform: translateX(200px);
+}
+
+.fourth-text-active {
+  transform: translateX(250px);
 }
