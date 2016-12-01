@@ -152,3 +152,10 @@ p {
     transform: translateX(250px);
   }
 }
+.main-text {
+  display: flex;
+}
+
+.main-text-container {
+  perspective: 1000px;
+}
