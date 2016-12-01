@@ -12,25 +12,25 @@ $(document).ready(function(){
 
       $('#first-item').toggleClass('first-text-active');
 
-    },200);
+    },300);
 
     setTimeout(function(){
 
       $('#second-item').toggleClass('second-text-active');
 
-    },400);
+    },500);
 
     setTimeout(function(){
 
       $('#third-item').toggleClass('third-text-active');
 
-    },600);
+    },700);
 
     setTimeout(function(){
 
       $('#fourth-item').toggleClass('fourth-text-active');
 
-    },800);
+    },900);
 
   });
 });
