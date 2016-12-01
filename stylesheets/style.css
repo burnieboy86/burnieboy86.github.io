@@ -91,10 +91,6 @@ body {
   width: 60%;
 }
 
-.menu-text {
-  transition: transform 200ms ease;
-}
-
 .menu-text p {
   color: whitesmoke;
   font-size: 50px;
@@ -104,18 +100,55 @@ p {
   font-family: "Bungee", cursive;
 }
 
-.first-text-active {
-  transform: translateX(100px);
+#first-item {
+  animation: move-first 200ms forwards;
+  animation-delay: 300ms;
 }
 
-.second-text-active {
-  transform: translateX(150px);
+@keyframes move-first {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+#second-item {
+  animation: move-second 200ms forwards;
+  animation-delay: 500ms;
 }
 
-.third-text-active {
-  transform: translateX(200px);
+@keyframes move-second {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(150px);
+  }
+}
+#third-item {
+  animation: move-third 200ms forwards;
+  animation-delay: 700ms;
 }
 
-.fourth-text-active {
-  transform: translateX(250px);
+@keyframes move-third {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+#fourth-item {
+  animation: move-fourth 200ms forwards;
+  animation-delay: 900ms;
+}
+
+@keyframes move-fourth {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(250px);
+  }
 }

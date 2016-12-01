@@ -8,29 +8,29 @@ $(document).ready(function(){
     $('.menu-wrapper').fadeToggle(200)
     $('body').toggleClass('body-menu-active')
 
-    setTimeout(function(){
+    //setTimeout(function(){
 
-      $('#first-item').toggleClass('first-text-active');
+      //$('#first-item').toggleClass('first-text-active');
 
-    },300);
+    //},300);
 
-    setTimeout(function(){
+    //setTimeout(function(){
 
-      $('#second-item').toggleClass('second-text-active');
+      //$('#second-item').toggleClass('second-text-active');
 
-    },500);
+    //},500);
 
-    setTimeout(function(){
+    //setTimeout(function(){
 
-      $('#third-item').toggleClass('third-text-active');
+      //$('#third-item').toggleClass('third-text-active');
 
-    },700);
+    //},700);
 
-    setTimeout(function(){
+    //setTimeout(function(){
 
-      $('#fourth-item').toggleClass('fourth-text-active');
+      //$('#fourth-item').toggleClass('fourth-text-active');
 
-    },900);
+    //},900);
 
   });
 });
