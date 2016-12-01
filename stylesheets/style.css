@@ -157,5 +157,5 @@ p {
 }
 
 .main-text-container {
-  perspective: 1000px;
+  -webkit-perspective: 1000px;
 }
