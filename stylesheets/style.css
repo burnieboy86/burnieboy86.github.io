@@ -16,7 +16,7 @@ body {
   position: fixed;
 }
 
-.menu-box {
+.menu-icon-box {
   height: 50px;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ body {
   margin-top: 20px;
   margin-left: 10px;
   position: fixed;
-  z-index: 3;
+  z-index: 2;
 }
 
 .middle-line {
@@ -64,21 +64,19 @@ body {
   font-size: 10vw;
 }
 
+.menu-wrapper {
+  display: none;
+  position: fixed;
+  z-index: 1;
+}
+
 .menu-overlay {
   height: 100vh;
   width: 100vw;
   background-color: #333;
-  position: fixed;
+  display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: column;
-  z-index: 2;
-  display: none;
-  overflow: hidden;
-}
-
-.menu-overlay-active {
-  display: flex;
 }
 
 .menu-icon-active {
