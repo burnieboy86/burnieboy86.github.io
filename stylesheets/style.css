@@ -4,36 +4,63 @@ body {
 
 .wrapper {
   height: 1000vh;
-  width: 100vw;
 }
 
 .container {
   height: 100vh;
   width: 100vw;
-  background-color: #333;
-  display: -webkit-flex;
+  background-color: whitesmoke;
+  display: flex;
   align-items: center;
+  justify-content: center;
   position: fixed;
-  -webkit-perspective: 1000px;
 }
 
-.front {
-  -webkit-backface-visibility: hidden;
+.menu-box {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  transform: rotate(-45deg);
+  transition: transform 200ms ease;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: fixed;
   z-index: 1;
-  background-color: #333;
 }
 
-.back, .front {
-  width: 75vw;
-  margin-left: 50px;
-  position: absolute;
+.middle-line {
+  width: 60px;
+  border: 4px solid #333;
+  border-radius: 10px;
+  transition: opacity 200ms ease;
 }
 
-p {
-  font-size: 4vh;
-  color: whitesmoke;
+.side-line {
+  width: 40px;
+  border: 4px solid #333;
+  border-radius: 10px;
+  transition: transform 200ms ease;
 }
 
-.back p {
-  -webkit-transform: scale(1, -1);
+.box-active {
+  transform: rotate(45deg);
+}
+
+.top-line-active {
+  transform: translateY(17px) rotate(90deg);
+}
+
+.bottom-line-active {
+  transform: translateY(-17px);
+}
+
+.middle-line-active {
+  opacity: 0;
+}
+
+.container p {
+  font-family: "Bungee", cursive;
+  font-size: 10vw;
 }
