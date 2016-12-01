@@ -1,10 +1,10 @@
 $(document).ready(function(){
-  $('.menu-box').click(function(){
+  $('.menu-icon-box').click(function(){
     $(this).toggleClass('box-active');
     $('#top').toggleClass('top-line-active menu-icon-active')
     $('#bottom').toggleClass('bottom-line-active menu-icon-active')
     $('.middle-line').toggleClass('middle-line-active')
-    $('.menu-overlay').toggleClass('menu-overlay-active')
+    $('.menu-wrapper').fadeToggle(200)
     $('body').toggleClass('body-menu-active')
   });
 });
