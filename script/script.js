@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $('.middle-line').toggleClass('middle-line-active')
 
-    $(this).children('p').fadeToggle(200)
+    $('.menu-icon-text-box').children('p').fadeToggle(200)
 
     $('.menu-wrapper').fadeToggle(200)
 

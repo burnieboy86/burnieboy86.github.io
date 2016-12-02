@@ -98,9 +98,11 @@ body {
 }
 
 .menu-icon-text-box {
+  width: 100%;
   position: absolute;
   user-select: none;
-  padding-top: 60px;
+  text-align: center;
+  bottom: -30px;
 }
 
 .menu-wrapper {
