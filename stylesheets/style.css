@@ -97,10 +97,10 @@ body {
   opacity: 0;
 }
 
-.menu-icon-box p {
+.menu-icon-text-box {
   position: absolute;
-  padding-top: 30px;
   user-select: none;
+  padding-top: 60px;
 }
 
 .menu-wrapper {
