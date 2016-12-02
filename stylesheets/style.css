@@ -26,7 +26,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  animation: fade-in 2s ease;
+  animation: fade-in 3s ease;
 }
 
 @keyframes fade-in {
