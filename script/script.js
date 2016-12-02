@@ -41,6 +41,6 @@ $(document).scroll(function(){
     'transform': 'translateX('+ scroller / 20 +'%)'
   });
   $('.main-text-container').css({
-    'transform': 'rotateY(-'+ scroller / 10 +'deg)'
+    'transform': 'rotateX(-'+ scroller / 20 +'deg) rotateY(-'+ scroller / 20 +'deg)'
   })
 });
