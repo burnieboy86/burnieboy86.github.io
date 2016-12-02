@@ -88,6 +88,12 @@ body {
   opacity: 0;
 }
 
+.menu-icon-box p {
+  position: absolute;
+  padding-top: 30px;
+  user-select: none;
+}
+
 .menu-wrapper {
   display: none;
   position: fixed;
