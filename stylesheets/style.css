@@ -16,6 +16,34 @@ body {
   position: fixed;
 }
 
+.container p {
+  font-size: 10vw;
+}
+
+.main-text {
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-text-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text-character-container {
+  perspective: 1000px;
+}
+
 .menu-icon-box {
   height: 50px;
   display: flex;
@@ -58,10 +86,6 @@ body {
 
 .middle-line-active {
   opacity: 0;
-}
-
-.container p {
-  font-size: 10vw;
 }
 
 .menu-wrapper {
@@ -108,10 +132,6 @@ body {
 
 .menu-text:hover .menu-text-rotate {
   transform: rotateX(-20deg) rotateY(-20deg);
-}
-
-p {
-  font-family: "Bungee", cursive;
 }
 
 #first-item {
@@ -166,10 +186,6 @@ p {
     transform: translateX(250px);
   }
 }
-.main-text {
-  display: flex;
-}
-
-.main-text-container {
-  perspective: 1000px;
+p {
+  font-family: "Bungee", cursive;
 }

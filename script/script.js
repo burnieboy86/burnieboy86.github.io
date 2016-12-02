@@ -40,7 +40,7 @@ $(document).scroll(function(){
   $('.container').children().css({
     'transform': 'translateX('+ scroller / 20 +'%)'
   });
-  $('.main-text-container').css({
+  $('.main-text-character-container').css({
     'transform': 'rotateX(-'+ scroller / 20 +'deg) rotateY(-'+ scroller / 20 +'deg)'
   })
 });
