@@ -51,7 +51,7 @@ $(document).scroll(function(){
 
   $('.container').children().css({
 
-    'transform': 'translateX('+ scroller / 20 +'%)'
+    'transform': 'translateY(-'+ scroller / 20 +'%)'
 
   });
 
