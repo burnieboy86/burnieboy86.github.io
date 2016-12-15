@@ -149,7 +149,7 @@ body {
 }
 
 .menu-text:hover .menu-text-rotate {
-  transform: rotateX(-20deg) rotateY(-20deg);
+  transform: scale(1.2);
 }
 
 #first-item {
