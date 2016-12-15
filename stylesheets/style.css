@@ -65,6 +65,7 @@ body {
   margin-left: 10px;
   position: fixed;
   z-index: 2;
+  animation: fade-in 3s ease;
 }
 
 .middle-line {
@@ -203,6 +204,18 @@ body {
     transform: translateX(250px);
   }
 }
+.second-panel {
+  height: 100vh;
+  width: 100vw;
+  background-color: #333;
+  margin-top: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
 p {
   font-family: "Bungee", cursive;
+  color: #333;
 }

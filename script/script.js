@@ -49,7 +49,11 @@ $(document).scroll(function(){
 
   var scroller = $(this).scrollTop();
 
-  $('.container').children().css({
+  var wideLoad = $(this).width();
+
+  var leftSide = $('.main-text').offset();
+
+  $('.main-text').css({
 
     'transform': 'translateY(-'+ scroller / 20 +'%)'
 
@@ -60,5 +64,4 @@ $(document).scroll(function(){
     'transform': 'rotateX(-'+ scroller / 20 +'deg) rotateY(-'+ scroller / 20 +'deg)'
 
   })
-
 });
