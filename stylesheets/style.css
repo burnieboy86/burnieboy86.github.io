@@ -1,42 +1,29 @@
 body {
-  background-color: black;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-}
-
-div {
   text-align: center;
-  margin: 50px;
-}
-
-a {
-  text-decoration: none;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
   color: white;
-  margin: 20px;
 }
 
-a:hover {
-  color: pink;
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+ol, ul {
+  text-align: left;
+}
+
+article {
+  text-align: justify;
 }
 
 img {
-  width: 300px;
   border: 5px solid white;
   padding: 5px;
-  transition: filter 500ms ease;
 }
 
-img:hover {
-  filter: invert(100%);
-}
-
-p {
-  text-align: left;
-}
-
-ul, ol {
-  display: table;
-  margin: auto;
-  text-align: left;
+header, main, footer, hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
