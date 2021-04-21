@@ -27,3 +27,15 @@ header, main, footer, hr {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+a:link    {
+  color: white;  }
+
+a:visited {
+  color: pink;   }
+
+a:hover   {
+  color: green; }
+
+a:active  {
+  color: red;  }
