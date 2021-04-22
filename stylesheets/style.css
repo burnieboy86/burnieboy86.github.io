@@ -1,33 +1,34 @@
+/* Here's the main styles for the body of the site */
 body {
   text-align: center;
   background-color: black;
   font-family: 'Roboto', sans-serif;
   color: white;
 }
-
+/* I set a class here called wrapper to keep the info in the site contained to the middle */
 .wrapper {
   width: 500px;
   margin: auto;
 }
-
+/* ordered and unordered list styles */
 ol, ul {
   text-align: left;
 }
-
+/* Article tags are lame but I was told to use them. This styles the text to justify */
 article {
   text-align: justify;
 }
-
+/* Gives the image a nice border with a bit of padding */
 img {
   border: 5px solid white;
   padding: 5px;
 }
-
+/* These margins keep everything nicely spaced out */
 header, main, footer, hr {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
+/* lame pseudo classes top style the contact links */
 a:link    {
   color: white;  }
 
